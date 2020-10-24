@@ -30,14 +30,15 @@ answer ="";
       this.question_type_one = current_question_one.question_type;
       this.question_id_one = current_question_one.id;
       this.answer = current_question_one.correct_answers;
-    generate_quiz_one()
+    console.log(current_question_one);
+    generate_quiz_one();
 }
 
 
 
 
 function generate_quiz_one(){
-
+  console.log(current_question_one);
   if(question_type_one == "Multiple choice"){
     document.getElementById("quiz1").innerHTML = `
     <form>
@@ -52,18 +53,34 @@ function generate_quiz_one(){
       <label>${current_question_one.options.optiond}</label><br>
     </form>`
   }
-  else if (question_type_one == "TF") {
-    document.getElementById("quiz_one_questions").innerHTML = `
+  else if (question_type_one == "Multiple selection") {
+    document.getElementById("quiz1").innerHTML = `
     <form>
-    <h2>${current_question_one.question}</h2>
-      <input type="radio" value =${current_question_one.options.optiona} name ="true" onclick= "score_tracker(this.value)">
-      <label for="true">${current_question_one.options.optiona}</label><br>
-      <input type="radio" value = ${current_question_one.options.optionb} name = "false" onclick= "score_tracker(this.value)">
-      <label for="false">${current_question_one.options.optionb}</label><br>
-    </form>`
+        <h2><b>${current_question_one.question}</b></h2>
+        <input type="checkbox" class="answers btn btn-default" name="vehicle1" value="${current_question_one.options.optiona}">
+        <label for="vehicle1">${current_question_one.options.optiona}</label><br>
+        <input type="checkbox" class="answers btn btn-default" name="vehicle2" value="${current_question_one.options.optionb}">
+        <label for="vehicle2"> ${current_question_one.options.optionb}</label><br>
+        <input type="checkbox" class="answers btn btn-default" name="vehicle3" value="${current_question_one.options.optionc}">
+        <label for="vehicle3"> ${current_question_one.options.optionc}</label><br>
+        <input type="checkbox" class="answers btn btn-default" name="vehicle3" value="${current_question_one.options.optiond}">
+        <label for="vehicle3"> ${current_question_one.options.optiond}</label><br>
+        <button type="button" onclick="compairing_answers()" class="btn btn-default">Submit</button>
+      </form>`
 }
 
   return false;
+}
+function compairing_answers(){
+var inputElements = document.getElementsByClassName('answers');
+checkedValue = "";
+for(var i=0; inputElements[i]; i++){
+      if(inputElements[i].checked){
+           checkedValue +=inputElements[i].value;
+      }
+}
+score_tracker(checkedValue);
+return false;
 }
 
 function score_tracker(selected_answer){
@@ -72,5 +89,7 @@ function score_tracker(selected_answer){
       current_score = current_score + 1;
         }
     count = count +1;
+    console.log(count);
+  get_api_data('https://my-json-server.typicode.com/sguthrie16/Technica-Hackathon/Questions_Quiz');
 return false;
 }

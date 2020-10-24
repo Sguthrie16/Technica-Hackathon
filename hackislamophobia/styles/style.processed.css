@@ -14,11 +14,12 @@ body {
 }
 
 .site-header a {
-  padding: 0 0.25rem;
+  padding:50px;
   color: white;
 }
 
 .site-content {
+  padding-top: 20px;
   flex: 1;
 }
 
