@@ -1,0 +1,27 @@
+{
+  "Questions_Quiz": [
+    {
+      "id": 1,
+      "question_type": "Multiple choice",
+      "question": "Which of the following is a true headline",
+      "options": {
+        "optiona": "System.in.println(x)",
+        "optionb": "System.out.println(x)",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
+      },
+      "correct_answers": "System.out.println(x)",
+      "explanation": "The correct answers is option b because we need to make the system know we are printing a message"
+    },
+    {
+  "id": 2,
+  "question_type": "Multiple selection",
+  "question": "Name different types of errors which can occur during the execution of a program",
+  "options": {
+    "optiona": "Syntax Errors",
+    "optionb": "Runtime Errors",
+    "optionc": "Logical errors",
+    "optiond": "Non Logical errors"
+  }
+  ]
+}
