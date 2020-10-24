@@ -5,24 +5,26 @@
       "question_type": "Multiple choice",
       "question": "Which of the following is a true headline",
       "options": {
-        "optiona": "System.in.println(x)",
-        "optionb": "System.out.println(x)",
-        "optionc": "helloWorld",
-        "optiond": "Print helloWorld"
+        "optiona": "Donald Trump believes Covid was created by aliens",
+        "optionb": "Covid-19 has been cured",
+        "optionc": "Covid-19 kills thousands of people in the USA",
+        "optiond": "Covid-19 is all a democratic hoax"
       },
-      "correct_answers": "System.out.println(x)",
-      "explanation": "The correct answers is option b because we need to make the system know we are printing a message"
+      "correct_answers": "Covid-19 kills thousands of people in the USA",
+      "explanation": "The correct answers is option b "
     },
     {
   "id": 2,
   "question_type": "Multiple selection",
-  "question": "Name different types of errors which can occur during the execution of a program",
+  "question": "Select headlines you've seen about Miley Cyrus that are true",
   "options": {
-    "optiona": "Syntax Errors",
-    "optionb": "Runtime Errors",
-    "optionc": "Logical errors",
-    "optiond": "Non Logical errors"
-  }
+    "optiona": "Miley does drugs",
+    "optionb": "Miley has gotted a divorce",
+    "optionc": "Miley does not care about people not as privledges as her",
+    "optiond": "Miley wants kids to do drugs"
+  },
+    "correct_answers": "Miley does drugsMiley has gotted a divorce",
+    "explanation": "Celebrities are very often get painted in a specific light that makes us more inclined to believe related articles. Miley has actually said in a recent interview that alcoohol and drugs has damanged her voice and she rarely does it anymore."
 }
   ]
 }

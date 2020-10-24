@@ -2,10 +2,10 @@
 document.addEventListener('DOMContentLoaded',
 function(){
   document.getElementById("start").onclick =()=>{
-    get_api_data('https://my-json-server.typicode.com/sguthrie16/CUS1172_Project_4/db')
+    get_api_data('https://my-json-server.typicode.com/sguthrie16/Technica-Hackathon/Questions_Quiz')
     };
 })
-count = 3;
+count = 0;
 question_type = "";
 current_question_one = "";
 current_question_two ="";
@@ -25,14 +25,16 @@ answer ="";
     data = await results.json()
       document.getElementById("quiz1").style.display = 'block';
       document.getElementById("start").style.display ="none";
-      current_question_one = data.Questions_Quiz[count];
+      console.log(data[count]);
+      current_question_one = data[count];
       console.log(count);
-      number_of_questions_one = Object.keys(data.Questions_Quiz).length;
+      number_of_questions_one = Object.keys(data).length;
       console.log(number_of_questions_one);
       this.question_type_one = current_question_one.question_type;
       this.question_id_one = current_question_one.id;
       this.answer = current_question_one.correct_answers;
-      generate_quiz_one()
+      console.log(answer);
+    generate_quiz_one()
 }
 
 
@@ -41,6 +43,7 @@ answer ="";
 function generate_quiz_one(){
 
   if(question_type_one == "Multiple choice"){
+    console.log(current_question_one.options.optiona);
     document.getElementById("quiz1").innerHTML = `
     <form>
     <h2>${current_question_one.question}</h2>
