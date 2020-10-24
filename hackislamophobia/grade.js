@@ -25,15 +25,11 @@ answer ="";
     data = await results.json()
       document.getElementById("quiz1").style.display = 'block';
       document.getElementById("start").style.display ="none";
-      console.log(data[count]);
       current_question_one = data[count];
-      console.log(count);
       number_of_questions_one = Object.keys(data).length;
-      console.log(number_of_questions_one);
       this.question_type_one = current_question_one.question_type;
       this.question_id_one = current_question_one.id;
       this.answer = current_question_one.correct_answers;
-      console.log(answer);
     generate_quiz_one()
 }
 
@@ -43,7 +39,6 @@ answer ="";
 function generate_quiz_one(){
 
   if(question_type_one == "Multiple choice"){
-    console.log(current_question_one.options.optiona);
     document.getElementById("quiz1").innerHTML = `
     <form>
     <h2>${current_question_one.question}</h2>

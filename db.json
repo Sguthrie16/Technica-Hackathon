@@ -6,9 +6,9 @@
       "question": "Which of the following is a true headline",
       "options": {
         "optiona": "Donald Trump believes Covid was created by aliens",
-        "optionb": "Covid-19 has been cured",
+        "optionb": "The Covid-19 virus has been cured",
         "optionc": "Covid-19 kills thousands of people in the USA",
-        "optiond": "Covid-19 is all a democratic hoax"
+        "optiond": "Republicans have proved that the virus is all a democratic hoax"
       },
       "correct_answers": "Covid-19 kills thousands of people in the USA",
       "explanation": "The correct answers is option b "
@@ -19,11 +19,11 @@
   "question": "Select headlines you've seen about Miley Cyrus that are true",
   "options": {
     "optiona": "Miley does drugs",
-    "optionb": "Miley has gotted a divorce",
-    "optionc": "Miley does not care about people not as privledges as her",
-    "optiond": "Miley wants kids to do drugs"
+    "optionb": "Liam Hemsworth and Miley Cyrus have gotted a divorce",
+    "optionc": "Many homeless teens have attested that Miley has laughed at them outside of a starbucks",
+    "optiond": "Singer Miley Cyrus promotes drug use to minors"
   },
-    "correct_answers": "Miley does drugsMiley has gotted a divorce",
+    "correct_answers": "MileyLiam",
     "explanation": "Celebrities are very often get painted in a specific light that makes us more inclined to believe related articles. Miley has actually said in a recent interview that alcoohol and drugs has damanged her voice and she rarely does it anymore."
 }
   ]
