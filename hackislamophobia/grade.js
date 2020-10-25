@@ -89,7 +89,7 @@ function score_tracker(selected_answer){
       current_score = current_score + 1;
         }
     count = count +1;
-    console.log(count);
+    console.log(current_score);
   get_api_data('https://my-json-server.typicode.com/sguthrie16/Technica-Hackathon/Questions_Quiz');
 return false;
 }
