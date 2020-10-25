@@ -1,30 +1,108 @@
 {
   "Questions_Quiz": [
-    {
-      "id": 1,
-      "question_type": "Multiple choice",
-      "question": "Which of the following is a true headline",
-      "options": {
-        "optiona": "Donald Trump believes Covid was created by aliens",
-        "optionb": "The Covid-19 virus has been cured",
-        "optionc": "Covid-19 kills thousands of people in the USA",
-        "optiond": "Republicans have proved that the virus is all a democratic hoax"
-      },
-      "correct_answers": "Covid-19 kills thousands of people in the USA",
-      "explanation": "The correct answers is option b "
+      {
+        "id": 1,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is a true headline",
+        "options": {
+            "optiona": "Donald Trump believes Covid was created by aliens",
+            "optionb": "The Covid-19 virus has been cured",
+            "optionc": "Covid-19 kills thousands of people in the USA",
+            "optiond": "Republicans have proved that the virus is all a democratic hoax"
+        },
+        "correct_answers": "Covid-19 kills thousands of people in the USA",
+        "explanation": "The correct answers is option b "
     },
     {
-  "id": 2,
-  "question_type": "Multiple selection",
-  "question": "Select headlines you've seen about Miley Cyrus that are true",
-  "options": {
-    "optiona": "Miley does drugs",
-    "optionb": "Liam Hemsworth and Miley Cyrus have gotted a divorce",
-    "optionc": "Many homeless teens have attested that Miley has laughed at them outside of a starbucks",
-    "optiond": "Singer Miley Cyrus promotes drug use to minors"
-  },
-    "correct_answers": "MileyLiam",
-    "explanation": "Celebrities are very often get painted in a specific light that makes us more inclined to believe related articles. Miley has actually said in a recent interview that alcoohol and drugs has damanged her voice and she rarely does it anymore."
-}
+        "id": 2,
+        "question_type": "Multiple selection",
+        "question": "Select headlines you've seen about Miley Cyrus that are true",
+        "options": {
+            "optiona": "Miley does drugs",
+            "optionb": "Liam Hemsworth and Miley Cyrus have gotted a divorce",
+            "optionc": "Many homeless teens have attested that Miley has laughed at them outside of a starbucks",
+            "optiond": "Singer Miley Cyrus promotes drug use to minors"
+        },
+            "correct_answers": "MileyLiam",
+            "explanation": "Celebrities are very often get painted in a specific light that makes us more inclined to believe related articles. Miley has actually said in a recent interview that alcoohol and drugs has damanged her voice and she rarely does it anymore."
+    }
+    {
+        "id": 3,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is NOT a true headline",
+        "options": {
+            "optiona": "Donald Trump Sends Out Embarrassing New Year’s Eve Message; This is Disturbing",
+            "optionb": "U.S. military to accept transgender recruits on Monday: Pentagon",
+            "optionc": "Trump wants Postal Service to charge 'much more' for Amazon shipments",
+            "optiond": "White House, Congress prepare for talks on spending, immigration"
+        },
+        "correct_answers": "Donald Trump Sends Out Embarrassing New Year’s Eve Message; This is Disturbing",
+        "explanation": "The correct answers is option a"
+    }
+    {
+        "id": 4,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is a true headline",
+        "options": {
+            "optiona": "Pope Francis Just Called Out Donald Trump During His Christmas Speech",
+            "optionb": "Racist Alabama Cops Brutalize Black Boy While He Is In Handcuffs (GRAPHIC IMAGES)",
+            "optionc": "Fresh Off The Golf Course, Trump Lashes Out At FBI Deputy Director And James Comey",
+            "optiond": "Man says he delivered manure to Mnuchin to protest new U.S. tax law"
+        },
+        "correct_answers": "Man says he delivered manure to Mnuchin to protest new U.S. tax law",
+        "explanation": "The correct answers is option d"
+    }
+    {
+        "id": 5,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is NOT a true headline",
+        "options": {
+            "optiona": "Exclusive: State Department tells refugee agencies to downsize U.S. operations",
+            "optionb": "Trump Said Some INSANELY Racist Stuff Inside The Oval Office, And Witnesses Back It Up",
+            "optionc": "In victory for Trump, judge tosses suit on foreign payments",
+            "optiond": "Senators seek to stop expansion of airport facial scans"
+        },
+        "correct_answers": "Trump Said Some INSANELY Racist Stuff Inside The Oval Office, And Witnesses Back It Up",
+        "explanation": "The correct answers is option b"
+    }
+    {
+        "id": 6,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is a true headline",
+        "options": {
+            "optiona": "In A Heartless Rebuke To Victims, Trump Invites NRA To Xmas Party On Sandy Hook Anniversary",
+            "optionb": "White House: It Wasn’t Sexist For Trump To Slut-Shame Sen. Kirsten Gillibrand (VIDEO)",
+            "optionc": "Spy chiefs pressure Congress to renew expiring surveillance law",
+            "optiond": "Despicable Trump Suggests Female Senator Would ‘Do Anything’ With Him For Campaign Money (TWEET)"
+        },
+        "correct_answers": "Spy chiefs pressure Congress to renew expiring surveillance law",
+        "explanation": "The correct answers is option c"
+    }
+    {
+        "id": 7,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is NOT a true headline",
+        "options": {
+            "optiona": "Accused Child Molesting Senate Candidate Roy Moore Sides With Putin Over Reagan (VIDEO)",
+            "optionb": "Banks, healthcare service firms among winners from U.S. tax bill",
+            "optionc": "Trump aides hope win on taxes will stem slide in poll numbers",
+            "optiond": "Congress faces tricky path to avoid government shutdown"
+        },
+        "correct_answers": "Accused Child Molesting Senate Candidate Roy Moore Sides With Putin Over Reagan (VIDEO)",
+        "explanation": "The correct answers is option c"
+    }
+    {
+        "id": 8,
+        "question_type": "Multiple choice",
+        "question": "Which of the following is a true headline",
+        "options": {
+            "optiona": "WATCH: Fox Host Calls For A ‘Cleansing’ Of The FBI, And To Arrest Everyone Investigating Trump",
+            "optionb": "U.S. tax cuts won't make housing more affordable: analysts",
+            "optionc": "Liberal Group Trolls Trump At Roy Moore Rally In The Best Possible Way (VIDEO)",
+            "optiond": "Don Jr. Tries To Mock Al Franken’s Resignation, Backfires Immediately"
+        },
+        "correct_answers": "U.S. tax cuts won't make housing more affordable: analysts",
+        "explanation": "The correct answers is option b"
+    }
   ]
 }

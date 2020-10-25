@@ -9,8 +9,8 @@ body {
   background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-037.jpg");
 }
 
-.site-header {
-  background-color: #37474F;
+header {
+  position: 35;
 }
 
 .site-header a {
@@ -34,8 +34,16 @@ body {
 }
 
 .WebsiteLinks {
-  width: 30%;
-  height: 1000px;
-  margin: 10px;
+  height:300px;
   border: solid black;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.WebsiteLayout{
+  a{
+    color:black;
+    font-size: 200px;
+  }
 }
