@@ -1,3 +1,4 @@
 # Technica-Hackathon
 ## This project is intended as a submission for the Technia hackathon of 2020
+##You can find the hosted website on https://sguthrie16.github.io/Technica-Hackathon/hackislamophobia/index.html
 ### I chose the #hackislamphobia track. This website is intended to combat the false news and conspiracies around the Islam community. I have saw first hand how harsh these articles can be and the negative effects they have on those in the community. It ostracizes Islam individuals and makes them feel as if they are a mockery. Imagine seeing thousands of articles shaming and polarizing your community, it would not be something you enjoy. I expect that individuals will use this website as their main source of news and will not be exposed to the false news that can negatively impact others. This website also includes a quiz that allows us to see how easily we can be manipulated by the media. False news needs to be stopped and this is my solution!
