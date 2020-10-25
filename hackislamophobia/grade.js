@@ -29,6 +29,7 @@ answer ="";
       number_of_questions_one = Object.keys(data).length;
       this.question_id_one = current_question_one.id;
       this.answer = current_question_one.correct_answers;
+      document.getElementById("quiz_answer").innerHTML="";
     generate_quiz_one();
 }
 
@@ -55,18 +56,20 @@ function generate_quiz_one(){
 function score_tracker(selected_answer){
   if (answer == selected_answer) {
       current_score = current_score + 1;
-      get_api_data('https://my-json-server.typicode.com/sguthrie16/Technica-Hackathon/Questions_Quiz');
         }
     count = count +1;
-    console.log(count);
-    console.log(number_of_questions_one);
+    document.getElementById("quiz_answer").innerHTML = `<h4 style="color:white;">The answer is the one that starts with ${answer} </h4>`;
   if(count == number_of_questions_one){
     complete();
+    return false;
   }
-
-
+  setTimeout(()=>{
+      get_api_data('https://my-json-server.typicode.com/sguthrie16/Technica-Hackathon/Questions_Quiz');
+  }, 1000);
 return false;
 }
 function complete(){
-  console.log(current_score);
+  document.getElementById("quiz1").style.display ="none";
+  document.getElementById("quiz_answer").style.display="none"
+  document.getElementById("completion").innerHTML= `<h1 style="color:white"> Your score is ${(current_score*100)/number_of_questions_one}`;
 }

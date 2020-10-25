@@ -11,7 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
-  <link rel="stylesheet" href="styles/style.processed.css">
+  <link rel="stylesheet" href="styles/style.scss">
   <script src="./grade.js"></script>
 </head>
 
@@ -19,15 +19,15 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="./index.html"><img src="https://images.vexels.com/media/users/3/131563/isolated/preview/93e49b6c5668d156aaee447bd9804fab-newspaper-circle-icon-by-vexels.png" style="width:10%; height:-50px;"></a>
+      <a class="navbar-brand" href="./index.html" style="margin-top:-13px;"><img src="https://images.vexels.com/media/users/3/131563/isolated/preview/93e49b6c5668d156aaee447bd9804fab-newspaper-circle-icon-by-vexels.png" style="width:10%; height:-50px;"></a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="./index.html">Home</a></li>
       <li class="active"><a href="./quiz.html">Fake News Quiz</a></li>
-      <li><a href="./more-info.html">Second Element of Site</a></li>
     </ul>
   </div>
 </nav>
+
   <main class="site-content">
   <div class="container" style="background:#1861a7; padding:50px;">
     <div class="row">
@@ -41,17 +41,24 @@
         <button type="button" class="btn text-center" name="start" id="start"style="padding:15px; background:#8ccae6; margin-left:25%; margin-top:-30px;">Start Quiz</button>
       </div>
     </div>
-      <div class="container" id="quiz1" style="display:none; color:white;">
-        <form id="quiz_one_questions">
 
-        </form>
+    <div class="container" id="quiz1" style="display:none; color:white;">
+      <form id="quiz_one_questions">
+      </form>
+    </div>
+
+  <div id="quiz_answer">
+    <h4> </h4>
+  </div>
+
+  <div id="completion" class="text-center">
   </div>
 </main>
-  <footer class="site-footer">
-    <div class="row">
-      <div class="columns small-4 large-4">&copy; LogoCorp</div>
-      <div class="columns small-4 large-4">Footer Stuff<br>Footer Stuff<br>Footer Stuff</div>
-      <div class="columns small-4 large-4"> Footer Stuff<br>Footer Stuff<br>Footer Stuff</div>
-    </div>
-  </footer>
+
+<footer class="site-footer">
+  <div class="row">
+    <div class="columns small-4 large-4"><a href="https://github.com/Sguthrie16/Technica-Hackathon" style="color:black;">GitHub</a></div>
+    <div class="columns small-4 large-4"> <a href="https://www.linkedin.com/in/sarah-guthrie" style="color:black;">LinkedIn</a></div>
+  </div>
+</footer>
 </body>
