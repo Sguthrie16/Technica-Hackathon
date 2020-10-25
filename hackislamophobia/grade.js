@@ -85,6 +85,7 @@ return false;
 
 function score_tracker(selected_answer){
   console.log(selected_answer);
+  console.log(answer);
   if (answer == selected_answer) {
       current_score = current_score + 1;
         }

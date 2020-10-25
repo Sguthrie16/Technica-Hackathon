@@ -15,19 +15,6 @@
     },
     {
         "id": 2,
-        "question_type": "Multiple selection",
-        "question": "Select headlines you've seen about Miley Cyrus that are true",
-        "options": {
-            "optiona": "Miley does drugs",
-            "optionb": "Liam Hemsworth and Miley Cyrus have gotted a divorce",
-            "optionc": "Many homeless teens have attested that Miley has laughed at them outside of a starbucks",
-            "optiond": "Singer Miley Cyrus promotes drug use to minors"
-        },
-            "correct_answers": "MileyLiam",
-            "explanation": "Celebrities are very often get painted in a specific light that makes us more inclined to believe related articles. Miley has actually said in a recent interview that alcoohol and drugs has damanged her voice and she rarely does it anymore."
-    },
-    {
-        "id": 3,
         "question_type": "Multiple choice",
         "question": "Which of the following is NOT a true headline",
         "options": {
@@ -40,7 +27,7 @@
         "explanation": "The correct answers is option a"
     },
     {
-        "id": 4,
+        "id": 3,
         "question_type": "Multiple choice",
         "question": "Which of the following is a true headline",
         "options": {
@@ -53,7 +40,7 @@
         "explanation": "The correct answers is option d"
     },
     {
-        "id": 5,
+        "id": 4,
         "question_type": "Multiple choice",
         "question": "Which of the following is NOT a true headline",
         "options": {
@@ -62,11 +49,11 @@
             "optionc": "In victory for Trump, judge tosses suit on foreign payments",
             "optiond": "Senators seek to stop expansion of airport facial scans"
         },
-        "correct_answers": "Trump Said Some INSANELY Racist Stuff Inside The Oval Office, And Witnesses Back It Up",
+        "correct_answers": "Trump",
         "explanation": "The correct answers is option b"
     },
     {
-        "id": 6,
+        "id": 5,
         "question_type": "Multiple choice",
         "question": "Which of the following is a true headline",
         "options": {
@@ -75,11 +62,11 @@
             "optionc": "Spy chiefs pressure Congress to renew expiring surveillance law",
             "optiond": "Despicable Trump Suggests Female Senator Would ‘Do Anything’ With Him For Campaign Money (TWEET)"
         },
-        "correct_answers": "Spy chiefs pressure Congress to renew expiring surveillance law",
+        "correct_answers": "Spy",
         "explanation": "The correct answers is option c"
     },
     {
-        "id": 7,
+        "id": 6,
         "question_type": "Multiple choice",
         "question": "Which of the following is NOT a true headline",
         "options": {
@@ -88,11 +75,11 @@
             "optionc": "Trump aides hope win on taxes will stem slide in poll numbers",
             "optiond": "Congress faces tricky path to avoid government shutdown"
         },
-        "correct_answers": "Accused Child Molesting Senate Candidate Roy Moore Sides With Putin Over Reagan (VIDEO)",
+        "correct_answers": "Accused",
         "explanation": "The correct answers is option c"
     },
     {
-        "id": 8,
+        "id": 7,
         "question_type": "Multiple choice",
         "question": "Which of the following is a true headline",
         "options": {
@@ -101,7 +88,7 @@
             "optionc": "Liberal Group Trolls Trump At Roy Moore Rally In The Best Possible Way (VIDEO)",
             "optiond": "Don Jr. Tries To Mock Al Franken’s Resignation, Backfires Immediately"
         },
-        "correct_answers": "U.S. tax cuts won't make housing more affordable: analysts",
+        "correct_answers": "U.S.",
         "explanation": "The correct answers is option b"
     }
   ]
